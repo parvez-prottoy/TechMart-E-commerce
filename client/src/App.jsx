@@ -1,10 +1,15 @@
-import { Button } from "keep-react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Navigation from "./components/navigation/Navigation";
 
 const App = () => {
   return (
-    <div>
-      <Button>Keep React</Button>
-    </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 };
 
