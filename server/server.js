@@ -1,8 +1,9 @@
 const app = require("./app");
 const colors = require("colors");
+const PORT = require("./config/config").port;
 
-app.listen(9000, () => {
+app.listen(PORT, () => {
   console.log(
-    colors.bgGreen.black(`Server is running on http://localhost:9000`)
+    colors.bgGreen.black(`Server is running on http://localhost:${PORT}`)
   );
 });
