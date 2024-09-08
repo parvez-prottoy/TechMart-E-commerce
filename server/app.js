@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const baseRoute = require("./src/routes/base.route");
 // ? connect DB
 const connectDB = require("./config/db").apply();
 // ? use middleware
@@ -11,4 +12,7 @@ app.use([
   express.json(),
   express.urlencoded({ extended: true }),
 ]);
+// ? use routes
+app.use("/", baseRoute);
+
 module.exports = app;
