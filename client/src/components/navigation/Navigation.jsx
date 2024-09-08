@@ -15,13 +15,16 @@ import arrowSvg from "../../assets/images/icons/vector3.svg";
 import userSvg from "../../assets/images/icons/vector12.svg";
 import wishListSvg from "../../assets/images/icons/vector11.svg";
 import cartSvg from "../../assets/images/icons/vector4.svg";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <Navbar className="py-2">
       <NavbarContainer>
         <NavbarBrand>
-          <img src={logo} height="42" width="200" alt="Logo" />
+          <Link to="/">
+            <img src={logo} height="42" width="200" alt="Logo" />
+          </Link>
         </NavbarBrand>
         <NavbarList>
           <fieldset className="relative text-gray-primary w-[100%] xl:w-[600px]">
