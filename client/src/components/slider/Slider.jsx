@@ -8,7 +8,7 @@ import {
   CarouselPrevButton,
   CarouselSlides,
 } from "keep-react";
-import sliders from "../../constaices/slider";
+import sliders from "../../constants/slider";
 import SliderItem from "./SliderItem";
 
 const Slider = () => {
