@@ -1,4 +1,4 @@
-[
+const products = [
   {
     name: "Gree 1.5 ton F-Split Inv AC H&C GSH-18NFV410",
     image: "/public/products/product-1.jpg",
@@ -132,3 +132,5 @@
     countInStock: 2,
   },
 ];
+
+module.exports = products;

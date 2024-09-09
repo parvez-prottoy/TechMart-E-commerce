@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const { noFound, errorHandler } = require("./src/middlewares/errorHandler");
 const baseRoute = require("./src/routes/base.route");
 // ? connect DB
 const connectDB = require("./config/db").apply();
@@ -14,5 +15,8 @@ app.use([
 ]);
 // ? use routes
 app.use("/", baseRoute);
+// ? use error handler
+app.use(noFound);
+app.use(errorHandler);
 
 module.exports = app;
