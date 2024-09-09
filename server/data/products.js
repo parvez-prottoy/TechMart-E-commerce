@@ -1,7 +1,7 @@
 const products = [
   {
     name: "Gree 1.5 ton F-Split Inv AC H&C GSH-18NFV410",
-    image: "/public/products/product-1.jpg",
+    image: "/public/images/products/product-1.jpg",
     brand: "Gree",
     category: "Air Conditioner",
     description:
@@ -12,7 +12,7 @@ const products = [
   },
   {
     name: "JBL Boombox 2 Wireless Portable Speaker",
-    image: "/public/products/product-4.jpg",
+    image: "/public/images/products/product-4.jpg",
     brand: "JBL",
     category: "Audio & Visual",
     description:
@@ -23,7 +23,7 @@ const products = [
   },
   {
     name: "DAIKIN 1 Ton Split Inv AC FTKL12TV16WD",
-    image: "/public/products/product-2.jpg",
+    image: "/public/images/products/product-2.jpg",
     brand: "Daikin",
     category: "Air Conditioner",
     description:
@@ -34,7 +34,7 @@ const products = [
   },
   {
     name: "JBL Bar 2.1 – Channel Soundbar with Wireless Subwoofer",
-    image: "/public/products/product-3.jpg",
+    image: "/public/images/products/product-3.jpg",
     brand: "JBL",
     category: "Audio & Visual",
     description:
@@ -45,7 +45,7 @@ const products = [
   },
   {
     name: "Apple Homepod Price Bangladesh | DRM Electronics",
-    image: "/public/products/product-5.jpg",
+    image: "/public/images/products/product-5.jpg",
     brand: "Apple",
     category: "Audio & Visual",
     description:
@@ -56,7 +56,7 @@ const products = [
   },
   {
     name: "8 KG Front Loading Washing Machine |HW80-BP12929S3|",
-    image: "/public/products/product-6.jpg",
+    image: "/public/images/products/product-6.jpg",
     brand: "Washing",
     category: "Home Appliance",
     description:
@@ -67,7 +67,7 @@ const products = [
   },
   {
     name: "Samsung 98Q80C 98 Inch QLED 4K HDR Smart TV",
-    image: "/public/products/product-7.jpg",
+    image: "/public/images/products/product-7.jpg",
     brand: "Samsung",
     category: "Television",
     description:
@@ -78,7 +78,7 @@ const products = [
   },
   {
     name: "Apple 15-inch Macbook Air price in bd with M2 chip - Midnight",
-    image: "/public/products/product-8.jpg",
+    image: "/public/images/products/product-8.jpg",
     brand: "Apple",
     category: "Laptop",
     description:
@@ -89,7 +89,7 @@ const products = [
   },
   {
     name: "16.0 kg Top Load Washing Machine with Digital Inverter Motor",
-    image: "/public/products/product-9.jpg",
+    image: "/public/images/products/product-9.jpg",
     brand: "Digital",
     category: "Home Appliance",
     description:
@@ -100,7 +100,7 @@ const products = [
   },
   {
     name: "F&D A140X 2.1 Multimedia Bluetooth Speaker",
-    image: "/public/products/product-10.jpg",
+    image: "/public/images/products/product-10.jpg",
     brand: "F&D",
     category: "Audio & Visual",
     description:
@@ -111,7 +111,7 @@ const products = [
   },
   {
     name: "MacBook Pro m2 max 16‑inch MacBook Pro - Space Gray",
-    image: "/public/products/product-11.jpg",
+    image: "/public/images/products/product-11.jpg",
     brand: "Apple",
     category: "Laptop",
     description:
@@ -122,7 +122,7 @@ const products = [
   },
   {
     name: "BRAVIA 7 65” class Mini LED QLED 4K HDR Google TV (2024)",
-    image: "/public/products/product-12.jpg",
+    image: "/public/images/products/product-12.jpg",
     brand: "Sony",
     category: "Television",
     description:
