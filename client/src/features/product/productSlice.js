@@ -6,14 +6,18 @@ const productSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: BASE_URL,
   }),
-  tagTypes: ["Products"],
+  tagTypes: ["Products", "Products"],
   endpoints: (builder) => ({
     getProducts: builder.query({
       query: () => PRODUCTS_URL,
       providesTags: ["Products"],
       keepUnusedDataFor: 600,
     }),
+    getProduct: builder.query({
+      query: (id) => `${PRODUCTS_URL}/${id}`,
+      providesTags: (result, error, arg) => [{ type: "Video", id: arg }],
+    }),
   }),
 });
-export const { useGetProductsQuery } = productSlice;
+export const { useGetProductsQuery, useGetProductQuery } = productSlice;
 export default productSlice;
