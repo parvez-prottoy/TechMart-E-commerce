@@ -17,7 +17,7 @@ const ShopsPage = () => {
             <FilterProducts />
           </div>
           <hr className="text-gray-light mb-4" />
-          <div className="flex flex-wrap -m-4 -z-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 -z-10">
             <Products />
           </div>
         </div>
