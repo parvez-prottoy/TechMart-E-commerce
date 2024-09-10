@@ -98,9 +98,15 @@ const ProductDetail = ({ product }) => {
           </div>
         </div>
       </div>
-      <div className="mt-6">
-        <hr className="mb-4 text-gray-light" />
-        <p className="leading-relaxed text-gray-primary">{description}</p>
+      <hr className="mb-4 mt-4 text-gray-light" />
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
+        <p className="leading-relaxed text-gray-primary col-span-1 md:col-span-3">
+          {description}
+        </p>
+        <div className="bg-primary-50 rounded-lg p-3 text-center">
+          <h4 className="text-xl font-bold">Your Current Cart</h4>
+          <h4 className="mt-1 text-lg font-semibold">Total Price: $0</h4>
+        </div>
       </div>
     </>
   );
